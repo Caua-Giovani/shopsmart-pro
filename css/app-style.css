@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: grey;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header h1{
+    font-size: 35px;
+}
+
+.header span{
+    color: white;
+}
+
+.container{
+    height: 100vh;
+}
+main{
+}
+.card{
+    background-color: lightgrey;
+    height: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.inputs{
+    padding: 20px;
+    background-color: grey;
+    width: 30%;
+    gap: 20px;
+    display: flex;
+}
+.card label{
+    font-size: 20px;
+    color: white;
+}
+.card input{
+    height: 30px;
+    background-color: lightgray;
+}
+
+.buttons{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.buttons button{
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
