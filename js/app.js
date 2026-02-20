@@ -75,7 +75,7 @@ function juros(){
          resultado.innerHTML=
          `      
             <h1>Juros Aplicado</h1>
-            <p>Foi aplicado um juros de ${v2}% sobre o valor de R$ ${v1.toFixed(2)}. </p> 
+            <p>Foi aplicado um acréscimo de ${v2}% sobre o valor de R$ ${v1.toFixed(2)}. </p> 
             <strong>Valor final com juros: <span>R$ ${(v1+(v1 * v2/100)).toFixed(2)}</span></strong>
         `; 
     };
