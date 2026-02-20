@@ -29,6 +29,7 @@ function calcularTotal(){
     };
 
 };
+
 function desconto(){
     const v1 = parseFloat(input01.value);
     const v2 = parseFloat(input02.value);
@@ -49,7 +50,7 @@ function desconto(){
          `
             <h1>Desconto Aplicado</h1>
             <p>Foi aplicado um desconto de ${v2}% sobre o valor de R$${v1}. </p> 
-            <strong>Valor final com desconto: <span>R$ ${v1-([v1 * v2]/100)}</span></strong>
+            <strong>Valor final com desconto: <span>R$ ${v1-(v1 * v2/100)}</span></strong>
 
         `; 
     };
@@ -75,10 +76,11 @@ function juros(){
          `      
             <h1>Juros Aplicado</h1>
             <p>Foi aplicado um juros de ${v2}% sobre o valor de R$${v1}. </p> 
-            <strong>Valor final com juros: <span>R$ ${v1+([v1 * v2]/100)}</span></strong>
+            <strong>Valor final com juros: <span>R$ ${v1+(v1 * v2/100)}</span></strong>
         `; 
     };
 };
+
 function comissao(){
     const v1 = parseFloat(input01.value);
     const v2 = parseFloat(input02.value);
@@ -128,6 +130,7 @@ function lucro(){
         `; 
     };
 };
+
 function limpar(){
     resultado.style.display='none';
     input01.value = '';
