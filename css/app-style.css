@@ -138,3 +138,7 @@
 .resultado strong{
     font-size: 27px;
 }
+
+.resultado span{
+    font-size: 32px;
+}
