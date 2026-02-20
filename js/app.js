@@ -16,7 +16,7 @@ function calcularTotal(){
          `  <h1>Erro na validação</h1>
             <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
         `; 
-        v1.focus()
+        input01.focus()
         
 
     } else{
@@ -42,7 +42,7 @@ function desconto(){
          `  <h1>Erro na validação</h1>
             <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
         `; 
-        v1.focus()
+        input01.focus()
 
     } else{
          resultado.style.display='flex'
@@ -68,7 +68,7 @@ function juros(){
          `  <h1>Erro na validação</h1>
             <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
         `; 
-        v1.focus()
+        input01.focus()
 
     } else{
          resultado.style.display='flex'
@@ -93,7 +93,7 @@ function comissao(){
          `  <h1>Erro na validação</h1>
             <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
         `; 
-        v1.focus()
+        input01.focus()
 
     } else{
          resultado.style.display='flex'
@@ -118,7 +118,7 @@ function lucro(){
          `  <h1>Erro na validação</h1>
             <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
         `; 
-        v1.focus()
+        input01.focus()
 
     } else{
          resultado.style.display='flex'
