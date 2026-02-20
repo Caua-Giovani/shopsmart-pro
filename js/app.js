@@ -12,11 +12,7 @@ function calcularTotal(){
     if (isNaN(v1) || isNaN(v2)){
 
         resultado.style.display='flex'
-         resultado.innerHTML=
-         `  <h1>Erro na validação</h1>
-            <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
-        `; 
-        input01.focus()
+        mensagem()
         
 
     } else{
@@ -38,11 +34,7 @@ function desconto(){
     if (isNaN(v1) || isNaN(v2)){
 
         resultado.style.display='flex'
-         resultado.innerHTML=
-         `  <h1>Erro na validação</h1>
-            <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
-        `; 
-        input01.focus()
+        mensagem()
 
     } else{
          resultado.style.display='flex'
@@ -64,11 +56,7 @@ function juros(){
     if (isNaN(v1) || isNaN(v2)){
 
         resultado.style.display='flex'
-         resultado.innerHTML=
-         `  <h1>Erro na validação</h1>
-            <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
-        `; 
-        input01.focus()
+        mensagem()
 
     } else{
          resultado.style.display='flex'
@@ -89,11 +77,7 @@ function comissao(){
     if (isNaN(v1) || isNaN(v2)){
 
         resultado.style.display='flex'
-         resultado.innerHTML=
-         `  <h1>Erro na validação</h1>
-            <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
-        `; 
-        input01.focus()
+        mensagem()
 
     } else{
          resultado.style.display='flex'
@@ -114,11 +98,7 @@ function lucro(){
     if (isNaN(v1) || isNaN(v2)){
 
         resultado.style.display='flex'
-         resultado.innerHTML=
-         `  <h1>Erro na validação</h1>
-            <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
-        `; 
-        input01.focus()
+        mensagem()
 
     } else{
          resultado.style.display='flex'
@@ -137,4 +117,11 @@ function limpar(){
     input02.value = '';
     
     input01.focus();
+};
+
+function mensagem(){
+    resultado.innerHTML = `  <h1>Erro na validação</h1>
+            <p>Por favor, informe valores numéricos válidos nos dois campos.</p> 
+        `;
+    input01.focus()
 };
